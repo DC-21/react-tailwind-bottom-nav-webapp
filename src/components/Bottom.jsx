@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Bottom = () => {
   const [active, setActive] = useState(0);
   return (
-    <div className="fixed w-full py-4 px-6 bottom-0 justify-center">
+    <div className="fixed flex w-full py-4 px-6 bottom-0 justify-center">
       <div className="w-[450px] flex bottom-0 sticky gap-12 bg-[#1f2a40] justify-center items-center py-3 text-white rounded-3xl">
         <a className="flex flex-col items-center gap-2 cursor-pointer" onClick={()=> setActive()}>
           <svg viewBox="0 0 24 24" fill="currentColor" height="2em" width="2em">
