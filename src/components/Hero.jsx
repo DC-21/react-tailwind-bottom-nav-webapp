@@ -67,8 +67,8 @@ const Hero = () => {
             </div>
           </div>
           <div className="w-full pt-4 flex gap-6">
-            <a className="py-3 px-2">Hire Me</a>
-            <a>Donate</a>
+            <a className="py-2 px-3 bg-[#8000e3] text-white text-xl rounded">Hire Me</a>
+            <a className="py-2 px-3 bg-[#1f2a40] text-white rounded">Donate</a>
           </div>
         </div>
         <div className="w-1/2 justify-center items-center flex">
