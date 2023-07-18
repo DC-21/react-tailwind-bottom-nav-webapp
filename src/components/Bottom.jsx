@@ -3,20 +3,31 @@ import React, { useState } from "react";
 const Bottom = () => {
   const [active, setActive] = useState(0);
 
+  const [hoveredIcon, setHoveredIcon] = useState(null);
+
   const handleIconClick = (index) => {
     setActive(index === active ? null : index);
   };
 
+  const handleIconHover = (index) => {
+    setHoveredIcon(index);
+  };
+
   return (
     <div className="fixed flex w-full py-4 px-6 bottom-0 justify-center">
-      <div className="w-[430px] h-20 flex bottom-0 sticky gap-4 bg-[#1f2a40] justify-center items-center py-3 text-white rounded-3xl">
-        <a
+      <div className="w-[420px] h-20 flex bottom-0 sticky gap-4 bg-[#1f2a40] justify-center items-center py-3 text-white rounded-3xl">
+      <a
           className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
             active === 0 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
-          }`}
+          } ${hoveredIcon === 0 ? "hovered-icon" : ""}`}
           onClick={() => handleIconClick(0)}
+          onMouseEnter={() => handleIconHover(0)}
+          onMouseLeave={() => handleIconHover(null)}
         >
-          <svg viewBox="0 0 24 24" fill="currentColor" height="2em" width="2em">
+          <svg viewBox="0 0 24 24" fill="currentColor" height="2em" width="2em" style={{
+              transform: hoveredIcon === 0 ? "scale(1.2)" : "scale(1)",
+              transition: "transform 0.3s ease"
+            }}>
             <path d="M5 22h14a2 2 0 002-2v-9a1 1 0 00-.29-.71l-8-8a1 1 0 00-1.41 0l-8 8A1 1 0 003 11v9a2 2 0 002 2zm5-2v-5h4v5zm-5-8.59l7-7 7 7V20h-3v-5a2 2 0 00-2-2h-4a2 2 0 00-2 2v5H5z" />
           </svg>
           {active === 0 && <p>Home</p>}
@@ -50,27 +61,25 @@ const Bottom = () => {
           {active === 2 && <p>About</p>}
         </a>
         <a
-          className={`flex flex-col items-center gap-2 cursor-pointer w-28 ${
+          className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
             active === 3 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
           }`}
           onClick={() => handleIconClick(3)}
         >
           <svg
-            viewBox="0 0 512 512"
-            fill="currentColor"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            viewBox="0 0 24 24"
             height="2em"
             width="2em"
           >
-            <path
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={32}
-              d="M427.68 351.43C402 320 383.87 304 383.87 217.35 383.87 138 343.35 109.73 310 96c-4.43-1.82-8.6-6-9.95-10.55C294.2 65.54 277.8 48 256 48s-38.21 17.55-44 37.47c-1.35 4.6-5.52 8.71-9.95 10.53-33.39 13.75-73.87 41.92-73.87 121.35C128.13 304 110 320 84.32 351.43 73.68 364.45 83 384 101.61 384h308.88c18.51 0 27.77-19.61 17.19-32.57zM320 384v16a64 64 0 01-128 0v-16"
-            />
+            <path stroke="none" d="M0 0h24v24H0z" />
+            <path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2M15 7a2 2 0 012 2M15 3a6 6 0 016 6" />
           </svg>
-          {active === 3 && <p>Notifications</p>}
+          {active === 3 && <p>Contact</p>}
         </a>
       </div>
     </div>
