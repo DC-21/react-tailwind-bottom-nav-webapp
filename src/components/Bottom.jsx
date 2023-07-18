@@ -4,16 +4,15 @@ const Bottom = () => {
   const [active, setActive] = useState(0);
 
   const handleIconClick = (index) => {
-    setActive(index=== active ? null: index);
-  }
-
+    setActive(index === active ? null : index);
+  };
 
   return (
     <div className="fixed flex w-full py-4 px-6 bottom-0 justify-center">
-      <div className="w-[520px] h-20 flex bottom-0 sticky gap-12 bg-[#1f2a40] justify-center items-center py-3 text-white rounded-3xl">
-      <a
+      <div className="w-[430px] h-20 flex bottom-0 sticky gap-4 bg-[#1f2a40] justify-center items-center py-3 text-white rounded-3xl">
+        <a
           className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
-            active === 0 ? "bg-orange-500 rounded-2xl" : ""
+            active === 0 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
           }`}
           onClick={() => handleIconClick(0)}
         >
@@ -24,7 +23,7 @@ const Bottom = () => {
         </a>
         <a
           className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
-            active === 1 ? "bg-orange-500 rounded-2xl" : ""
+            active === 1 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
           }`}
           onClick={() => handleIconClick(1)}
         >
@@ -40,24 +39,19 @@ const Bottom = () => {
         </a>
         <a
           className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
-            active === 2 ? "bg-orange-500 rounded-2xl" : ""
+            active === 2 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
           }`}
           onClick={() => handleIconClick(2)}
         >
-<svg
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      height="2em"
-      width="2em"
-    >
-      <path d="M12 2A10.13 10.13 0 002 12a10 10 0 004 7.92V20h.1a9.7 9.7 0 0011.8 0h.1v-.08A10 10 0 0022 12 10.13 10.13 0 0012 2zM8.07 18.93A3 3 0 0111 16.57h2a3 3 0 012.93 2.36 7.75 7.75 0 01-7.86 0zm9.54-1.29A5 5 0 0013 14.57h-2a5 5 0 00-4.61 3.07A8 8 0 014 12a8.1 8.1 0 018-8 8.1 8.1 0 018 8 8 8 0 01-2.39 5.64z" />
-      <path d="M12 6a3.91 3.91 0 00-4 4 3.91 3.91 0 004 4 3.91 3.91 0 004-4 3.91 3.91 0 00-4-4zm0 6a1.91 1.91 0 01-2-2 1.91 1.91 0 012-2 1.91 1.91 0 012 2 1.91 1.91 0 01-2 2z" />
-    </svg>
-          {active === 2 && <p>Search</p>}
+          <svg viewBox="0 0 24 24" fill="currentColor" height="2em" width="2em">
+            <path d="M12 2A10.13 10.13 0 002 12a10 10 0 004 7.92V20h.1a9.7 9.7 0 0011.8 0h.1v-.08A10 10 0 0022 12 10.13 10.13 0 0012 2zM8.07 18.93A3 3 0 0111 16.57h2a3 3 0 012.93 2.36 7.75 7.75 0 01-7.86 0zm9.54-1.29A5 5 0 0013 14.57h-2a5 5 0 00-4.61 3.07A8 8 0 014 12a8.1 8.1 0 018-8 8.1 8.1 0 018 8 8 8 0 01-2.39 5.64z" />
+            <path d="M12 6a3.91 3.91 0 00-4 4 3.91 3.91 0 004 4 3.91 3.91 0 004-4 3.91 3.91 0 00-4-4zm0 6a1.91 1.91 0 01-2-2 1.91 1.91 0 012-2 1.91 1.91 0 012 2 1.91 1.91 0 01-2 2z" />
+          </svg>
+          {active === 2 && <p>About</p>}
         </a>
         <a
           className={`flex flex-col items-center gap-2 cursor-pointer w-28 ${
-            active === 3 ? "bg-orange-500 rounded-2xl" : ""
+            active === 3 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
           }`}
           onClick={() => handleIconClick(3)}
         >
