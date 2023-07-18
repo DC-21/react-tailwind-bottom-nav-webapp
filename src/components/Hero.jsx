@@ -1,5 +1,5 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import { Player } from '@lottiefiles/react-lottie-player';
 
 const Hero = () => {
   return (
@@ -63,7 +63,16 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2"></div>
+        <div className="w-1/2">
+            <div>
+            <Player
+            autoplay
+            loop
+            src='https://lottie.host/e45aa305-a945-42e0-8143-c6a65f155dc9/XmOLkBQvzU.json'
+            style={{ width: '100%', height: 'auto' }}
+          />
+            </div>
+        </div>
       </div>
     </div>
   );
