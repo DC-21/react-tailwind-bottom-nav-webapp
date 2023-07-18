@@ -21,7 +21,7 @@ const Hero = () => {
           </div>
           <div className="justify-center w-full pt-6">
             <p className="text-left text-[#1f2a40] text-2xl">
-              Reach out anytime, anywhere
+              Reach out anytime, anywhere:
             </p>
             <div className="flex gap-6 pt-3 w-full">
               <a href="https://mailto:cholahkuboko@gmail.com">
@@ -67,8 +67,8 @@ const Hero = () => {
             </div>
           </div>
           <div className="w-full pt-4 flex gap-6">
-            <a className="py-2 px-3 bg-[#8000e3] text-white text-xl rounded">Hire Me</a>
-            <a className="py-2 px-3 bg-[#1f2a40] text-white rounded">Donate</a>
+            <a className="py-2 px-3 bg-[#8000e3] cursor-pointer text-white text-xl rounded">Hire Me</a>
+            <a className="py-2 px-3 bg-[#1f2a40] cursor-pointer text-white rounded">Donate</a>
           </div>
         </div>
         <div className="w-1/2 justify-center items-center flex">
