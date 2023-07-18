@@ -1,5 +1,5 @@
 import React from "react";
-import { Player } from '@lottiefiles/react-lottie-player';
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const Hero = () => {
   return (
@@ -10,16 +10,20 @@ const Hero = () => {
             <p className="text-left font-bold text-4xl text-[#1f2a40]">
               Design and Build Stunning World Class Websites With Me
             </p>
-            <p className="text-2xl pt-4 text-[#1f2a40]">Already have a project in mind ?</p>
+            <p className="text-2xl pt-4 text-[#1f2a40]">
+              Already have a project in mind ?
+            </p>
             <p className="text-2xl pt-3 text-[#1f2a40]">
               You are welcome, i Will build an E-Commerce website, Point of Sale
               management Web App, portfolio website and Blogs at affordable
               prices. Make your order now and don't be left out
             </p>
           </div>
-          <div className="justify-center">
-            <p className="text-left text-[#1f2a40]">Reach out anytime, anywhere</p>
-            <div className="flex gap-6 pt-6">
+          <div className="justify-center w-full pt-6">
+            <p className="text-left text-[#1f2a40] text-2xl">
+              Reach out anytime, anywhere
+            </p>
+            <div className="flex gap-6 pt-3 w-full">
               <a href="https://mailto:cholahkuboko@gmail.com">
                 <svg
                   viewBox="0 0 24 24"
@@ -62,16 +66,20 @@ const Hero = () => {
               </a>
             </div>
           </div>
+          <div className="w-full pt-4 flex gap-6">
+            <a className="py-3 px-2">Hire Me</a>
+            <a>Donate</a>
+          </div>
         </div>
         <div className="w-1/2 justify-center items-center flex">
-            <div className="justify-center">
+          <div className="justify-center">
             <Player
-            autoplay
-            loop
-            src='https://lottie.host/e45aa305-a945-42e0-8143-c6a65f155dc9/XmOLkBQvzU.json'
-            style={{ width: '100%', height: 'auto' }}
-          />
-            </div>
+              autoplay
+              loop
+              src="https://lottie.host/e45aa305-a945-42e0-8143-c6a65f155dc9/XmOLkBQvzU.json"
+              style={{ width: "100%", height: "auto" }}
+            />
+          </div>
         </div>
       </div>
     </div>
