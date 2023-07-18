@@ -10,7 +10,7 @@ const Hero = () => {
             <p className="text-left font-bold text-4xl text-[#1f2a40]">
               Design and Build Stunning World Class Websites With Me
             </p>
-            <p>Already have a design at hand ?</p>
+            <p className="text-xl">Already have a design at hand ?</p>
             <p>
               You are welcome, i Will build an E-Commerce website, Point of Sale
               management Web App, portfolio website and Blogs at affordable
