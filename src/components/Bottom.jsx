@@ -3,7 +3,7 @@ import React from "react";
 const Bottom = () => {
   return (
     <div className="w-full py-6 px-6 sticky bottom-0">
-      <div className="w-full flex bottom-0 sticky gap-6">
+      <div className="w-full flex bottom-0 sticky gap-6 bg-[#1f2a40] justify-center py-4 text-white">
         <a className="flex items-center gap-2 cursor-pointer">
           <svg viewBox="0 0 24 24" fill="currentColor" height="1em" width="1em">
             <path d="M5 22h14a2 2 0 002-2v-9a1 1 0 00-.29-.71l-8-8a1 1 0 00-1.41 0l-8 8A1 1 0 003 11v9a2 2 0 002 2zm5-2v-5h4v5zm-5-8.59l7-7 7 7V20h-3v-5a2 2 0 00-2-2h-4a2 2 0 00-2 2v5H5z" />
