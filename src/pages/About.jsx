@@ -104,9 +104,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div>
-            <div className="flex w-full mt-6 bg-slate-400">
-              <div className="flex gap-6 pt-3 w-full bg-black">
+          <div className="w-full flex">
+            <div className="flex w-full mt-6">
+              <div className="flex gap-6 pt-3 w-full">
                 <a href="https://mailto:cholahkuboko@gmail.com">
                   <svg
                     viewBox="0 0 24 24"
