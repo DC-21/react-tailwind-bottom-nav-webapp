@@ -19,7 +19,7 @@ const Bottom = () => {
       <div className="md:w-[420px] w-auto md:h-20 h-16 flex bottom-0 sticky md:gap-4 gap-2 bg-[#1f2a40] justify-center items-center py-3 text-white rounded-3xl">
         <Link
           to="/"
-          className={`flex flex-col items-center gap-2 cursor-pointer md:w-20 w-12 sm:h-14 ${
+          className={`flex flex-col items-center gap-2 cursor-pointer md:ml-0 ml-2 md:w-20 w-12 sm:h-14 ${
             active === 0 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 0 ? "hovered-icon" : ""}`}
           onClick={() => handleIconClick(0)}
