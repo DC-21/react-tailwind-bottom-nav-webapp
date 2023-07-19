@@ -8,24 +8,13 @@ const About = () => {
       <div className="w-full md:flex justify-center items-center px-6 py-4">
         <div className="w-1/2 flex items-center justify-center">
           <div className="flex flex-col w-full">
-            <h1 className="font-bold text-4xl">About</h1>
+            <h1 className="font-bold text-4xl text-[#1f2a40]">About</h1>
               <div className="pt-3 w-full flex gap-3 items-center text-2xl">
-                <p className="flex gap-2 text-[#51596b]">I am<p className="font-bold text-[#1f2a40]">Chola Kuboko,</p></p>
-                <TypeAnimation
-                  sequence={[
-                    "a Web Developer",
-                    2000,
-                    "a Web Designer",
-                    2000,
-                  ]}
-                  className="md:text-2xl z-10 text-xs  md:text-left text-center w-[300px] text-[#51596b]"
-                  repeat={Infinity}
-                  wrapper="p"
-                />
+                <p className="flex gap-2 text-[#51596b]">I am<p className="font-bold text-[#1f2a40]">Chola Kuboko,</p>a Web Developer</p>
               </div>
-            <p>
+            <p className="text-[#51596b] text-xl">
               With passion to merge client ideas and design into desired
-              products.
+              products. I have been developing websites for a year now and i would say, i love it especially that it involves bringing designs to life.
             </p>
           </div>
         </div>
