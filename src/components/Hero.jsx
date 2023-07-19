@@ -17,7 +17,7 @@ const Hero = () => {
               management Web App, portfolio website, and Blogs at affordable
               prices. Make your order now and don't be left out.
             </p>
-            <p>Feel free to reach out anytime, anywhere...</p>
+            <p className="md:hidden flex text-center mt-1 text-lg text-[#1f2a40]">Feel free to reach out anytime, anywhere...</p>
           </div>
           <div className="w-full md:justify-start justify-center pt-4 flex gap-6">
             <a className="py-2 px-3 bg-[#8000e3] cursor-pointer text-white md:text-xl text-sm rounded">
