@@ -17,7 +17,8 @@ const Bottom = () => {
   return (
     <div className="fixed flex w-full md:py-4 py-2 px-6 bottom-0 justify-center z-10">
       <div className="md:w-[420px] w-auto md:h-20 h-16 flex bottom-0 sticky md:gap-4 gap-2 bg-[#1f2a40] justify-center items-center py-3 text-white rounded-3xl">
-        <Link to="/"
+        <Link
+          to="/"
           className={`flex flex-col items-center gap-2 cursor-pointer md:w-20 w-12 ${
             active === 0 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 0 ? "hovered-icon" : ""}`}
@@ -37,9 +38,14 @@ const Bottom = () => {
           >
             <path d="M5 22h14a2 2 0 002-2v-9a1 1 0 00-.29-.71l-8-8a1 1 0 00-1.41 0l-8 8A1 1 0 003 11v9a2 2 0 002 2zm5-2v-5h4v5zm-5-8.59l7-7 7 7V20h-3v-5a2 2 0 00-2-2h-4a2 2 0 00-2 2v5H5z" />
           </svg>
-          {active === 0 && <p className={`home-text ${active === 0 ? "" : "hidden sm:block"}`}>Home</p>}
+          {active === 0 && (
+            <p>
+              Home
+            </p>
+          )}
         </Link>
-        <Link to="/projects"
+        <Link
+          to="/projects"
           className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
             active === 1 ? "bg-white rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 1 ? "hovered-icon" : ""}`}
@@ -61,7 +67,8 @@ const Bottom = () => {
           </svg>
           {active === 1 && <p>Projects</p>}
         </Link>
-        <Link to="/about"
+        <Link
+          to="/about"
           className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
             active === 2 ? "bg-[#f6a98c] rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 2 ? "hovered-icon" : ""}`}
@@ -84,7 +91,8 @@ const Bottom = () => {
           </svg>
           {active === 2 && <p>About</p>}
         </Link>
-        <Link to="/contacts"
+        <Link
+          to="/contacts"
           className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
             active === 3 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 3 ? "hovered-icon" : ""}`}
