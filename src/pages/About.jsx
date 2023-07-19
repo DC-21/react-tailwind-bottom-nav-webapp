@@ -42,7 +42,7 @@ const About = () => {
                 <div>
                   <p className="w-full text-xl">React Js</p>
                   <div className="w-20 bg-[#5e5e5e] h-2 rounded">
-                    <div className="w-14 h-2 bg-white rounded"></div>
+                    <div className="w-14 h-2 bg-[#ffe4c4] rounded"></div>
                   </div>
                 </div>
               </div>
@@ -58,7 +58,7 @@ const About = () => {
                 <div>
                   <p className="w-full text-xl">Express Js</p>
                   <div className="w-20 bg-[#5e5e5e] h-2 rounded">
-                    <div className="w-12 h-2 bg-white rounded"></div>
+                    <div className="w-12 h-2 bg-[#ffe4c4] rounded"></div>
                   </div>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const About = () => {
                 <div>
                   <p className="w-full text-xl">Node Js</p>
                   <div className="w-20 bg-[#5e5e5e] h-2 rounded">
-                    <div className="w-10 h-2 bg-white rounded"></div>
+                    <div className="w-10 h-2 bg-[#ffe4c4] rounded"></div>
                   </div>
                 </div>
               </div>
@@ -98,7 +98,7 @@ const About = () => {
                 <div>
                   <p className="w-full text-xl">MySQL</p>
                   <div className="w-20 bg-[#5e5e5e] h-2 rounded">
-                    <div className="w-16 h-2 bg-white rounded"></div>
+                    <div className="w-16 h-2 bg-[#ffe4c4] rounded"></div>
                   </div>
                 </div>
               </div>
