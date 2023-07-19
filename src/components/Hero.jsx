@@ -3,11 +3,11 @@ import { Player } from "@lottiefiles/react-lottie-player";
 
 const Hero = () => {
   return (
-    <div className="bg-[#60c0d2] flex w-full h-screen px-3 py-2 justify-center items-center">
-      <div className="w-full h-full flex justify-center">
-        <div className="justify-center items-center flex flex-col w-1/2">
-          <div className="justify-center">
-            <p className="text-left font-bold text-4xl text-[#1f2a40]">
+    <div className="bg-[#60c0d2] flex w-full md:h-screen h-auto px-3 py-2 justify-center items-center">
+      <div className="w-full h-full md:flex cm:flex-col justify-center">
+        <div className="justify-center items-center md:flex flex-col w-1/2 px-6">
+          <div className="justify-center items-center w-full">
+            <p className="md:text-left text-center flex w-full font-bold md:text-4xl text-xl text-[#1f2a40]">
               Design and Build Stunning World Class Websites With Me
             </p>
             <p className="text-2xl pt-4 text-[#1f2a40]">
