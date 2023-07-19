@@ -18,28 +18,11 @@ const Hero = () => {
               prices. Make your order now and don't be left out.
             </p>
           </div>
-          <div className="pt-6">
-            <p className="text-[#1f2a40] text-2xl">Reach out anytime, anywhere:</p>
-            <div className="flex gap-6 pt-3">
-              <a href="mailto:cholahkuboko@gmail.com">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  height="2.5em"
-                  width="2.5em"
-                  className="hover:scale-105 transform transition-all duration-200 ease-in-out"
-                >
-                  {/* ...SVG Path data */}
-                </svg>
-              </a>
-              {/* Add other social media icons here */}
-            </div>
-          </div>
-          <div className="w-full pt-4 flex gap-6">
-            <a className="py-2 px-3 bg-[#8000e3] cursor-pointer text-white text-xl rounded">
+          <div className="w-full md:justify-start justify-center pt-4 flex gap-6">
+            <a className="py-2 px-3 bg-[#8000e3] cursor-pointer text-white md:text-xl text-sm rounded">
               Hire Me
             </a>
-            <a className="py-2 px-3 bg-[#1f2a40] cursor-pointer text-white text-xl rounded">
+            <a className="py-2 px-3 bg-[#1f2a40] cursor-pointer text-white md:text-xl text-sm rounded">
               Donate
             </a>
           </div>
