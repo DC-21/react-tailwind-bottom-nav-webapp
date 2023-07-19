@@ -1,4 +1,3 @@
-import React from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 const Hero = () => {
@@ -16,7 +15,7 @@ const Hero = () => {
             <p className="text-2xl pt-3 text-[#1f2a40]">
               You are welcome, i Will build an E-Commerce website, Point of Sale
               management Web App, portfolio website and Blogs at affordable
-              prices. Make your order now and don't be left out
+              prices. Make your order now and dont be left out
             </p>
           </div>
           <div className="justify-center w-full pt-6">
