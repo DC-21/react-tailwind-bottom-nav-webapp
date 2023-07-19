@@ -12,11 +12,12 @@ const Hero = () => {
             <p className="text-[#1f2a40] md:text-left text-center md:text-2xl text-lg md:pt-4 pt-1">
               Already have a project in mind?
             </p>
-            <p className="text-[#1f2a40] md:text-left text-center md:text-2xl text-lg md:pt-3 pt-1">
+            <p className="md:flex hidden text-[#1f2a40] md:text-left text-center md:text-2xl text-lg md:pt-3 pt-1">
               You are welcome, I will build an E-Commerce website, Point of Sale
               management Web App, portfolio website, and Blogs at affordable
               prices. Make your order now and don't be left out.
             </p>
+            <p>Feel free to reach out anytime, anywhere...</p>
           </div>
           <div className="w-full md:justify-start justify-center pt-4 flex gap-6">
             <a className="py-2 px-3 bg-[#8000e3] cursor-pointer text-white md:text-xl text-sm rounded">
