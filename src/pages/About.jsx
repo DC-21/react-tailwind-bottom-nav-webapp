@@ -13,12 +13,12 @@ const About = () => {
                 <p>I am</p><p className="font-bold">Chola Kuboko,</p>
                 <TypeAnimation
                   sequence={[
-                    "A Web Developer",
+                    "Web Developer",
                     2000,
-                    "A Web Designer",
+                    "Web Designer",
                     2000,
                   ]}
-                  className="md:text-3xl z-10 md:pt-0 pt-8 text-sm  md:text-left text-center w-[150px] font-bold text-white"
+                  className="md:text-3xl z-10 text-xs  md:text-left text-center w-[300px] font-bold text-white"
                   repeat={Infinity}
                   wrapper="p"
                 />
