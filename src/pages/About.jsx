@@ -11,8 +11,8 @@ const About = () => {
                 </div>
             </div>
             <div className='w-1/2 flex items-center justify-center'>
-                <div className='w-full justify-center rounded-full h-[400] overflow-hidden'>
-                    <img className='object-cover w-full h-[500px] overflow-hidden bg-white' src={own} alt='image'/>
+                <div className='w-full flex justify-center items-center rounded-full h-full overflow-hidden'>
+                    <img className='w-[450px] h-[500px] bg-white rounded-full' src={own} alt='image'/>
                 </div>
             </div>
         </div>
