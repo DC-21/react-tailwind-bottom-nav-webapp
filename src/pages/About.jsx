@@ -10,7 +10,7 @@ const About = () => {
           <div className="flex flex-col w-full">
             <h1 className="font-bold text-4xl">About</h1>
               <div className="pt-3 w-full flex gap-3 items-center text-2xl">
-                <p className="flex gap-2">I am<p className="font-bold text-[#1f2a40]">Chola Kuboko,</p></p>
+                <p className="flex gap-2 text-[#51596b]">I am<p className="font-bold text-[#1f2a40]">Chola Kuboko,</p></p>
                 <TypeAnimation
                   sequence={[
                     "a Web Developer",
@@ -18,7 +18,7 @@ const About = () => {
                     "a Web Designer",
                     2000,
                   ]}
-                  className="md:text-2xl z-10 text-xs  md:text-left text-center w-[300px] font-bold text-[#51596b]"
+                  className="md:text-2xl z-10 text-xs  md:text-left text-center w-[300px] text-[#51596b]"
                   repeat={Infinity}
                   wrapper="p"
                 />
