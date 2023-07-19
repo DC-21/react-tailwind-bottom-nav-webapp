@@ -15,7 +15,7 @@ const Bottom = () => {
   };
 
   return (
-    <div className="fixed flex w-full py-4 px-6 bottom-0 justify-center">
+    <div className="fixed flex w-full py-4 px-6 bottom-0 justify-center z-10">
       <div className="w-[420px] h-20 flex bottom-0 sticky gap-4 bg-[#1f2a40] justify-center items-center py-3 text-white rounded-3xl">
         <Link to="/"
           className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
