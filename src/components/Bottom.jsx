@@ -93,7 +93,7 @@ const Bottom = () => {
         </Link>
         <Link
           to="/contacts"
-          className={`flex flex-col items-center gap-2 cursor-pointer md:w-20 w-12 sm:h-14 ${
+          className={`flex flex-col items-center gap-2 cursor-pointer md:mr-0 mr-2 md:w-20 w-12 sm:h-14 ${
             active === 3 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 3 ? "hovered-icon" : ""}`}
           onClick={() => handleIconClick(3)}
