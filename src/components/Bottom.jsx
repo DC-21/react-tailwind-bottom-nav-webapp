@@ -16,7 +16,7 @@ const Bottom = () => {
 
   return (
     <div className="fixed flex w-full md:py-4 py-2 px-6 bottom-0 justify-center z-10">
-      <div className="md:w-[420px] w-[300px] md:h-20 h-16 flex bottom-0 sticky md:gap-4 gap-2 bg-[#1f2a40] justify-center items-center py-3 text-white rounded-3xl">
+      <div className="md:w-[420px] w-auto md:h-20 h-16 flex bottom-0 sticky md:gap-4 gap-2 bg-[#1f2a40] justify-center items-center py-3 text-white rounded-3xl">
         <Link to="/"
           className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
             active === 0 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
