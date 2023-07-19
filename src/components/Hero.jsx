@@ -2,7 +2,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 
 const Hero = () => {
   return (
-    <div className="bg-[#60c0d2] flex flex-col md:h-screen h-full items-center justify-center px-3 py-2">
+    <div className="bg-[#60c0d2] flex flex-col h-screen items-center justify-center px-3 py-2">
       <div className="w-full md:flex flex-row md:items-center">
         <div className="w-full md:w-1/2 md:px-6">
           <div className="w-full">
