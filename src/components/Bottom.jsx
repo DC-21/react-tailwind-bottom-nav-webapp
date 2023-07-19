@@ -19,7 +19,7 @@ const Bottom = () => {
       <div className="md:w-[420px] w-auto md:h-20 h-16 flex bottom-0 sticky md:gap-4 gap-2 bg-[#1f2a40] justify-center items-center py-3 text-white rounded-3xl">
         <Link
           to="/"
-          className={`flex flex-col items-center gap-2 cursor-pointer md:w-20 w-12 h-14 ${
+          className={`flex flex-col items-center gap-2 cursor-pointer md:w-20 w-12 sm:h-14 ${
             active === 0 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 0 ? "hovered-icon" : ""}`}
           onClick={() => handleIconClick(0)}
@@ -46,7 +46,7 @@ const Bottom = () => {
         </Link>
         <Link
           to="/projects"
-          className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
+          className={`flex flex-col items-center gap-2 cursor-pointer md:w-20 w-12 sm:h-14 ${
             active === 1 ? "bg-white rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 1 ? "hovered-icon" : ""}`}
           onClick={() => handleIconClick(1)}
@@ -69,7 +69,7 @@ const Bottom = () => {
         </Link>
         <Link
           to="/about"
-          className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
+          className={`flex flex-col items-center gap-2 cursor-pointer md:w-20 w-12 sm:h-14 ${
             active === 2 ? "bg-[#f6a98c] rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 2 ? "hovered-icon" : ""}`}
           onClick={() => handleIconClick(2)}
@@ -93,7 +93,7 @@ const Bottom = () => {
         </Link>
         <Link
           to="/contacts"
-          className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
+          className={`flex flex-col items-center gap-2 cursor-pointer md:w-20 w-12 sm:h-14 ${
             active === 3 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 3 ? "hovered-icon" : ""}`}
           onClick={() => handleIconClick(3)}
