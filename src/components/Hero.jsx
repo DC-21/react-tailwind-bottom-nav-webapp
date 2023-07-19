@@ -2,7 +2,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 
 const Hero = () => {
   return (
-    <div className="bg-[#60c0d2] flex flex-col items-center justify-center px-3 py-2">
+    <div className="bg-[#60c0d2] flex flex-col md:h-screen h-auto items-center justify-center px-3 py-2">
       <div className="w-full md:flex flex-row md:items-center">
         <div className="w-full md:w-1/2 md:px-6">
           <div className="w-full">
@@ -15,7 +15,7 @@ const Hero = () => {
             <p className="md:flex hidden text-[#1f2a40] md:text-left text-center md:text-2xl text-lg md:pt-3 pt-1">
               You are welcome, I will build an E-Commerce website, Point of Sale
               management Web App, portfolio website, and Blogs at affordable
-              prices. Make your order now and don't be left out.
+              prices. Make your order now and dont be left out.
             </p>
             <p className="md:hidden flex text-center mt-1 text-lg text-[#1f2a40]">Feel free to reach out anytime, anywhere...</p>
           </div>
