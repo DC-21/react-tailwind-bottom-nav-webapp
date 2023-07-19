@@ -41,7 +41,7 @@ const Bottom = () => {
         </Link>
         <Link to="/projects"
           className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
-            active === 1 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
+            active === 1 ? "bg-white rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 1 ? "hovered-icon" : ""}`}
           onClick={() => handleIconClick(1)}
           onMouseEnter={() => handleIconHover(1)}
@@ -63,7 +63,7 @@ const Bottom = () => {
         </Link>
         <Link to="/about"
           className={`flex flex-col items-center gap-2 cursor-pointer w-20 ${
-            active === 2 ? "bg-[#60c0d2] rounded-2xl text-[#1f2a40]" : ""
+            active === 2 ? "bg-[#f6a98c] rounded-2xl text-[#1f2a40]" : ""
           } ${hoveredIcon === 2 ? "hovered-icon" : ""}`}
           onClick={() => handleIconClick(2)}
           onMouseEnter={() => handleIconHover(2)}
